@@ -1,9 +1,41 @@
 <html>
-    <header>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>SIT725 Prac 2-2</title>
+        <meta name="description" content="basic template for SIT 725 Prac 2-2">
+        <meta name="author" content="SitePoint">
+        <meta property="og:title" content="SIT 725 Prac 2-2">
+        <meta property="og:type" content="website">
+        <meta property="og:description" content="basic template for SIT 725 Prac 2-2">
 
-    </header>
+        <!-- CSS file -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    </head>
     <body>
-        <h1>SIT725</h1>
-        <h3>Task 2.2</h3>
+        <div class="container">
+            <h2>SIT725 Prac 2-2</h2>
+            <h3>Please input 2 random integers in the following blanks</h3>
+            <form action="/addTwoNumbers" method="post">
+                <div class="row">
+                    <label class="col-12" for="number1">Number1:</label>
+                    <div class="col-12">
+                        <input type="text" class="form-control" id="number1" name="number1">
+                    </div>
+                </div>
+                <div class="row">
+                    <label class="col-12" for="number2">Number2:</label>
+                    <div class="col-12">
+                        <input type="text" class="form-control" id="number2" name="number2">
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-2 d-flex justify-content-center">
+                        <button type="submit" class="btn">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
     </body>
 </html>
