@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "sit725-2023-t2-prac2-2",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "author": "Wenzong Xuan",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NateXuan/sit725-2023-t2-prac2-2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NateXuan/sit725-2023-t2-prac2-2/issues"
+  },
+  "homepage": "https://github.com/NateXuan/sit725-2023-t2-prac2-2#readme",
+  "description": ""
+}
