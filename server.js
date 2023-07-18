@@ -8,7 +8,7 @@ app.use(express.static('public_html'));
 
 app.use(bodyParser.urlencoded({ extended: false }));
 
-// Route for displaying order page
+// Route for displaying index page
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/index.html');
 });
